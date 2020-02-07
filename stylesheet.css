@@ -28,7 +28,9 @@ header, #form, footer{
     grid-gap: 2em;
     align-items:center;
 }
-
+#form{
+    margin-top: 5em;
+}
 header{
     padding-top: 2em;
 }
@@ -188,7 +190,16 @@ footer a{
     }
 }
 @media screen and (max-width:50em){
-    header, #form, footer, #quotes{
+    header, #form, footer, #quotes, #inside div{
         display: block;
+    }
+    #about{
+        padding: 1em;
+    }
+    #inside section{
+        margin-bottom: 1em;
+    }
+    footer h2{
+        margin-top: 1em;
     }
 }
