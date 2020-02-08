@@ -67,7 +67,7 @@ header{
     color: white;
 }
 
-header a, .formkit-submit {
+.formkit-submit {
     display: inline-block;
     background-color: #41bdd7;
     padding: 0.5em 2em;
